@@ -56,7 +56,14 @@ theme = "loveit"
     # title will be shown when you hover on this menu link
     title = ""
     weight = 1
-
+ [[menu.main]]
+    identifier = "try"
+    pre = ""
+    post = ""
+    name = "Try it!"
+    url = "https://stacks-swaps.netlify.app"
+    title = "Experimental Web UI"
+    weight = 2
 
 # Markup related configuration in Hugo
 [markup]
