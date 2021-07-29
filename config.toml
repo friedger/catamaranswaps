@@ -1,0 +1,64 @@
+baseURL = "https://catamaranswaps.org/"
+languageCode = "en-us"
+title = "Catamaran Swaps"
+theme = "loveit"
+
+[params]
+  # LoveIt theme version
+  version = "0.2.X"
+  description = "Catamaran Swaps"
+  keywords = ["Stacks", "Bitcoin"]
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
+  gitrepo = "https://github.com/friedger/catamaranswaps"
+  images = ["/logo.jpg"]
+
+[params.app]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    title = "Catamaran Swaps"
+    # whether to omit favicon resource links
+    noFavicon = false
+    # modern SVG favicon to use in place of older style .png and .ico files
+    svgFavicon = ""
+    # Android browser theme color
+    themeColor = "#ffffff"
+    # Safari mask icon color
+    iconColor = "#5bbad5"
+    # Windows v8-10 tile color
+    tileColor = "#da532c"
+
+# Home page config
+[params.home]
+  rss = 10
+  [params.home.profile]
+    enable = true
+    avatarURL = "/logo.jpg"
+    # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
+    title = "Catamaran Swaps"
+    # subtitle shown in home page
+    subtitle = "Trustless swaps with Bitcoin"
+    # whether to use typeit animation for subtitle
+    typeit = true
+    # whether to show social links
+    social = false
+    # LoveIt NEW | 0.2.0 disclaimer (HTML format is supported)
+    disclaimer = "Do your own research about risks using Catamaran Swaps on Stacks 2.0"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+    weight = 1
+
+
+# Markup related configuration in Hugo
+[markup]
+  [markup.highlight]
+    noClasses = false
